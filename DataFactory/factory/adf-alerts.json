@@ -1,0 +1,17 @@
+{
+	"name": "adf-alerts",
+	"properties": {
+		"globalParameters": {
+			"la_send_mail_url": {
+				"type": "string",
+				"value": "https://prod2-139.westeurope.logic.azure.com:443/workflows/3b7728a3d11c48d0a7f5f1295fd2e9b6/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=5axr9gM8tYVGdkzfCFfEaHLrpYsEFwsBHbrAcJfSlRU"
+			}
+		}
+	},
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "96a387c1-d35e-40c5-9255-560e6d3cf638",
+		"tenantId": "e0793d39-0939-496d-b129-198edd916feb"
+	}
+}
